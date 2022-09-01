@@ -1,20 +1,21 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
+import UnderConstruction from '@components/UnderConstruction'
+import MtoProfile from '@components/MtoProfile'
 
 export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
+        <title>Welcome to MTO!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
+        <Header title="Hey, I'm Michaël" />
+        <MtoProfile className="description" />
+        <UnderConstruction />
       </main>
 
       <Footer />
