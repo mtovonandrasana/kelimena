@@ -2,10 +2,10 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 export default function Navbar() {
   return (
-    <div>
+    <div className='header'>
       <a href="#">MTO</a>
-      <nav>
-        <ul>
+      <nav className="main-nav">
+        <ul className='main-nav-list'>
           <li>
             <a href="https://github.com/mtovonandrasana" target="_blank">
               <FaGithub />
