@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import profilePicPNG from "@assets/images/mto.png";
+import profilePic from "@assets/images/mto.jpeg";
 
 export default function ResumeHeader() {
   return (
@@ -10,7 +10,7 @@ export default function ResumeHeader() {
           <picture className="resume-profile-pic rounded-circle">
             <Image
               className="rounded-circle"
-              src={profilePicPNG}
+              src={profilePic}
               alt="profilePic"
             />
           </picture>
