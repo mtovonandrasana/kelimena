@@ -31,7 +31,7 @@ export default function ResumeHeader() {
               </li>
               <li className="list-inline-item me-lg-5">
                 <i className="resume-contact-icon bi bi-globe me-2"></i>{" "}
-                https://github.com/mtovonandrasana
+                https://mtovonandrasana.netlify.app
               </li>
             </ul>
           </div>
