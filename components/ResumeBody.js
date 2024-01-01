@@ -10,10 +10,14 @@ export default function ResumeBody() {
                 About Me
               </h3>
               <div className="resume-summary-desc">
-                Summarise your career profile here lorem ipsum dolor sit amet,
-                consectetuer adipiscing elit. Aenean commodo ligula eget dolor
-                aenean massa. Cum sociis natoque penatibus et magnis dis
-                parturient montes, nascetur ridiculus mus.
+                Software Engineer who is always looking to learn and build new
+                skills. Primary focus is on freelance development for early
+                stage start-ups. Comfortable building projects from start to
+                finish from planning to development, testing and maintenance.
+                Extremely fast learner with a passion for system design,
+                architecture, and refactoring. Understands the balance between
+                customers' needs and engineering challenges. Team player that
+                enjoys tackling problems together.
               </div>
             </section>
             {/** --//resume-section-- */}
@@ -29,10 +33,21 @@ export default function ResumeBody() {
                 <article className="resume-timeline-item position-relative pb-5">
                   <div className="resume-timeline-item-header mb-2">
                     <div className="resume-position-meta d-flex justify-content-between mb-1">
-                      <div className="resume-position-time">2023 - Present</div>
-                      <div className="resume-company-name">Google</div>
+                      <div className="resume-position-time">
+                        February 2021 - Present
+                      </div>
+                      <div className="resume-company-name">
+                        <a
+                          href="https://www.projetlineaire.com/"
+                          target="blanked"
+                        >
+                          Projet Lineaire
+                        </a>
+                      </div>
                     </div>
-                    <h3 className="resume-position-title mb-1">Tech Lead</h3>
+                    <h3 className="resume-position-title mb-1">
+                      Software Engineer
+                    </h3>
                   </div>
                   {/**--//resume-timeline-item-header--*/}
                   <div className="resume-timeline-item-desc">
@@ -67,11 +82,17 @@ export default function ResumeBody() {
                 <article className="resume-timeline-item position-relative pb-5">
                   <div className="resume-timeline-item-header mb-2">
                     <div className="resume-position-meta d-flex justify-content-between mb-1">
-                      <div className="resume-position-time">2019 - 2023</div>
-                      <div className="resume-company-name">Meta</div>
+                      <div className="resume-position-time">
+                        Mars 2022 - December 2023
+                      </div>
+                      <div className="resume-company-name">
+                        <a href="https://digital.gov.mg/" target="blanked">
+                          DGU
+                        </a>
+                      </div>
                     </div>
                     <h3 className="resume-position-title mb-1">
-                      Senior App Developer
+                      X-Road Expert
                     </h3>
                   </div>
                   {/**--//resume-timeline-item-header--*/}
@@ -100,18 +121,29 @@ export default function ResumeBody() {
                 <article className="resume-timeline-item position-relative">
                   <div className="resume-timeline-item-header mb-2">
                     <div className="resume-position-meta d-flex justify-content-between mb-1">
-                      <div className="resume-position-time">2017 - 2019</div>
-                      <div className="resume-company-name">Coinbase</div>
+                      <div className="resume-position-time">2019 - 2021</div>
+                      <div className="resume-company-name">
+                        <a href="https://www.soprasteria.com/">
+                          SNEDA - Soprasteria
+                        </a>
+                      </div>
                     </div>
                     <h3 className="resume-position-title mb-1">
-                      App Developer
+                      FullStack Java Developer
                     </h3>
                   </div>
                   {/**--//resume-timeline-item-header--*/}
                   <div className="resume-timeline-item-desc">
                     <ul className="resume-timeline-list">
                       <li>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Part of the development team of{" "}
+                        <a
+                          href="https://www.soprabanking.com/"
+                          target="blanked"
+                        >
+                          Cassiopea Sopra Baking Software
+                        </a>
+                        .
                       </li>
                       <li>
                         Nulla velit dui, ultrices sit amet arcu eget, sodales
