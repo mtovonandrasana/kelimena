@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import MainLayout from '@components/MainLayout'
-import fontAwesomeJs from '@assets/fontawesome/js/all.min.js'
 
 export default function Home() {
   return (

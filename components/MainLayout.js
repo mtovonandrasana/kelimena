@@ -1,4 +1,5 @@
 import Footer from "./Footer";
+import ResumeWrapper from "./ResumeWrapper";
 import SocialLink from "./SocialLink";
 
 export default function MainLayout() {
@@ -9,6 +10,7 @@ export default function MainLayout() {
             <div className="main-content-wrapper">
                 <div className="container-fluid">
                     <SocialLink />
+                    <ResumeWrapper />
                 </div>{/**--//container-fluid-- */}
             </div>{/**--//main-content-wrapper */}
         </div>
