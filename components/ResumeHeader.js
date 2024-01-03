@@ -17,7 +17,7 @@ export default function ResumeHeader() {
 
           <h2 className="resume-name text-uppercase">Michael T. </h2>
           <div className="resume-role-title text-uppercase">
-            Senior App Developer
+            Senior Software Developer
           </div>
           <div className="resume-contact mt-4">
             <ul className="resume-contact-list list-unstyled list-inline mb-0 justify-content-between">

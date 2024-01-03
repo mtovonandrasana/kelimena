@@ -53,25 +53,30 @@ export default function ResumeBody() {
                   <div className="resume-timeline-item-desc">
                     <ul className="resume-timeline-list">
                       <li>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Aenean porta est diam, et blandit ipsum suscipit
-                        facilisis. Praesent nec semper eros. Aliquam quis turpis
-                        sed metus mollis luctus vitae rhoncus mi.{" "}
+                        Engage in the entire development lifecycle for new
+                        applications or functionalities, and uphold the
+                        maintenance of existing apps.
                       </li>
                       <li>
-                        Vivamus accumsan purus at urna tincidunt convallis. Sed
-                        nisi dolor, elementum eget tempus ac, blandit ac mi.
-                        Aliquam id tellus ut arcu luctus accumsan in at odio.{" "}
+                        Built the app architecture and design system components.{" "}
+                      </li>
+                      <li>
+                        Implemented workflows and guidelines for code
+                        consistency, readability, maintainability, and
+                        testability.{" "}
                       </li>
 
                       <li>
-                        Morbi condimentum, lorem in pharetra mollis, purus justo
-                        sollicitudin dolor, tristique vulputate mi odio sit amet
-                        ante.
+                        Conducted R&D (research and development) for libraries
+                        and ways to improve our codebase.
                       </li>
                       <li>
-                        Blanditiis praesentium voluptatum deleniti atque
-                        corrupti.
+                        Implemente CI/CD for optimized and automated continuous
+                        deployment, ensuring maximum efficiency.
+                      </li>
+                      <li>
+                        Implemente an advanced monitoring system to ensure
+                        optimal stability of services.
                       </li>
                     </ul>
                   </div>
@@ -87,31 +92,36 @@ export default function ResumeBody() {
                       </div>
                       <div className="resume-company-name">
                         <a href="https://digital.gov.mg/" target="blanked">
-                          DGU
+                          UGD
                         </a>
                       </div>
                     </div>
                     <h3 className="resume-position-title mb-1">
-                      X-Road Expert
+                      <a href="https://x-road.global/" target="blanked">
+                        X-Road
+                      </a>{" "}
+                      Expert
                     </h3>
                   </div>
                   {/**--//resume-timeline-item-header--*/}
                   <div className="resume-timeline-item-desc">
                     <ul className="resume-timeline-list">
+                      <li>First responsible for the X-Road operation.</li>
                       <li>
-                        Praesent nec semper eros. Aliquam quis turpis sed metus
-                        mollis luctus vitae rhoncus mi. At vero eos et accusamus
-                        et iusto odio dignissimos.
+                        Ensuring high availability of X-Road and Trusted Service
+                        (CA, Timestamping).
+                      </li>
+                      <li>Manage and support X-Road members.</li>
+                      <li>
+                        Ensure quality control for all projects related to
+                        e-Governance and interoperability in Malagasy
+                        gouvernment, working closely with technical and business
+                        teams of institutions, both internally and externally at
+                        UGD.
                       </li>
                       <li>
-                        Proin tempus eu arcu in semper. Quisque gravida, sem ut
-                        vehicula ultrices, diam est viverra odio, eget tristique
-                        tortor tortor sed neque.
-                      </li>
-                      <li>
-                        Suspendisse quis pharetra elit. Curabitur vitae cursus
-                        lacus, et bibendum magna. Donec in orci eu augue posuere
-                        mattis ut in turpis.
+                        Support UGD in implementing the national services (APIs)
+                        catalog.
                       </li>
                     </ul>
                   </div>
@@ -136,22 +146,21 @@ export default function ResumeBody() {
                   <div className="resume-timeline-item-desc">
                     <ul className="resume-timeline-list">
                       <li>
-                        Part of the development team of{" "}
+                        Contributes to the development and upkeep of use cases
+                        for the Sneda Global Software project, currently known
+                        as{" "}
                         <a
                           href="https://www.soprabanking.com/"
                           target="blanked"
                         >
-                          Cassiopea Sopra Baking Software
+                          Cassiopae Habitat Sopra Banking Software
                         </a>
                         .
                       </li>
                       <li>
-                        Nulla velit dui, ultrices sit amet arcu eget, sodales
-                        lacinia lorem.
-                      </li>
-                      <li>
-                        Quisque semper nisi mauris, non ullamcorper nunc
-                        consectetur eget.{" "}
+                        Ensures team meets deadlines and maintains high-quality
+                        development in adherence to applied methods and
+                        standards.
                       </li>
                     </ul>
                   </div>
@@ -173,6 +182,22 @@ export default function ResumeBody() {
 
               <ul className="list-unstyled">
                 <li className="mb-2">
+                  <div className="resume-skill-name">Java</div>
+                  <div
+                    className="progress resume-progress"
+                    role="progressbar"
+                    aria-label="Basic example"
+                    aria-valuenow="98"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div
+                      className="progress-bar resume-progress-bar"
+                      style={{ width: "98%" }}
+                    ></div>
+                  </div>
+                </li>
+                <li className="mb-2">
                   <div className="resume-skill-name">JavaScript</div>
                   <div
                     className="progress resume-progress"
@@ -189,23 +214,7 @@ export default function ResumeBody() {
                   </div>
                 </li>
                 <li className="mb-2">
-                  <div className="resume-skill-name">ReactJS</div>
-                  <div
-                    className="progress resume-progress"
-                    role="progressbar"
-                    aria-label="Basic example"
-                    aria-valuenow="95"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  >
-                    <div
-                      className="progress-bar resume-progress-bar"
-                      style={{ width: "95%" }}
-                    ></div>
-                  </div>
-                </li>
-                <li className="mb-2">
-                  <div className="resume-skill-name">Python</div>
+                  <div className="resume-skill-name">Spring</div>
                   <div
                     className="progress resume-progress"
                     role="progressbar"
@@ -221,7 +230,23 @@ export default function ResumeBody() {
                   </div>
                 </li>
                 <li className="mb-2">
-                  <div className="resume-skill-name">MongoDB</div>
+                  <div className="resume-skill-name">Quarkus</div>
+                  <div
+                    className="progress resume-progress"
+                    role="progressbar"
+                    aria-label="Basic example"
+                    aria-valuenow="92"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div
+                      className="progress-bar resume-progress-bar"
+                      style={{ width: "92%" }}
+                    ></div>
+                  </div>
+                </li>
+                <li className="mb-2">
+                  <div className="resume-skill-name">Kotlin</div>
                   <div
                     className="progress resume-progress"
                     role="progressbar"
@@ -233,6 +258,22 @@ export default function ResumeBody() {
                     <div
                       className="progress-bar resume-progress-bar"
                       style={{ width: "86%" }}
+                    ></div>
+                  </div>
+                </li>
+                <li className="mb-2">
+                  <div className="resume-skill-name">ReactJS</div>
+                  <div
+                    className="progress resume-progress"
+                    role="progressbar"
+                    aria-label="Basic example"
+                    aria-valuenow="95"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div
+                      className="progress-bar resume-progress-bar"
+                      style={{ width: "80%" }}
                     ></div>
                   </div>
                 </li>
@@ -263,6 +304,11 @@ export default function ResumeBody() {
                 <li className="list-inline-item">
                   <span className="badge resume-skill-badge">
                     Public Speaking
+                  </span>
+                </li>
+                <li className="list-inline-item">
+                  <span className="badge resume-skill-badge">
+                    Problem solving
                   </span>
                 </li>
               </ul>
@@ -312,16 +358,14 @@ export default function ResumeBody() {
                     MSc in Computer Science
                   </div>
                   <div className="resume-degree-org">ENI University</div>
-                  <div className="resume-degree-time">2016 - 2017</div>
+                  <div className="resume-degree-time">2017 - 2019</div>
                 </li>
                 <li>
                   <div className="resume-degree font-weight-bold">
-                    BSc Maths and Physics
+                    BSc in Computer Science
                   </div>
-                  <div className="resume-degree-org">
-                    University of California, Berkeley
-                  </div>
-                  <div className="resume-degree-time">2012 - 2016</div>
+                  <div className="resume-degree-org">ENI University</div>
+                  <div className="resume-degree-time">2014 - 2017</div>
                 </li>
               </ul>
             </section>
