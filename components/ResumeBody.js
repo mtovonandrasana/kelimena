@@ -311,6 +311,11 @@ export default function ResumeBody() {
                     Problem solving
                   </span>
                 </li>
+                <li className="list-inline-item">
+                  <span className="badge resume-skill-badge">
+                    Agile Software development
+                  </span>
+                </li>
               </ul>
             </section>
             {/**--//resume-section--*/}
@@ -325,23 +330,27 @@ export default function ResumeBody() {
               <div className="item">
                 <h4 className="item-heading">
                   <i className="item-icon bi bi-square-fill me-2"></i>
-                  <a href="#">Project lorem Ipsum</a>
+                  <a href="https://github.com/mtovonandrasana/kelimena">
+                    Online resume
+                  </a>
                 </h4>
                 <div className="item-desc">
-                  Project desc goes here aenean ut libero sit amet ante
-                  fermentum scelerisque non a leo.
+                  My online resume serves as a dynamic representation of my
+                  skills, experiences, and projects, providing a modern and
+                  accessible way for potential employers or collaborators to
+                  learn more about my professional background.
                 </div>
               </div>
               {/**--//item--*/}
-              <div className="item">
+              {/* <div className="item">
                 <h4 className="item-heading">
                   <i className="item-icon bi bi-square-fill me-2"></i>
-                  <a href="#">Volutpat App</a>
+                  <a href="#">Online resume</a>
                 </h4>
                 <div className="item-desc">
                   You can link to your project Github page.
                 </div>
-              </div>
+              </div> */}
               {/**--//item--*/}
             </section>
 
@@ -355,7 +364,7 @@ export default function ResumeBody() {
               <ul className="list-unstyled">
                 <li className="mb-2">
                   <div className="resume-degree font-weight-bold">
-                    MSc in Computer Science
+                    MSc in Software engineering
                   </div>
                   <div className="resume-degree-org">ENI University</div>
                   <div className="resume-degree-time">2017 - 2019</div>
